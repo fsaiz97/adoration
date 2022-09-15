@@ -17,7 +17,7 @@ describe("adoration module testing", () => {
         it("Throws an error when passed a string", () => {
             expect(() => {
                 showHowMuchILoveYou("with all my heart")
-            }).toThrow(new Error("I hate you!"));
+            }).toThrow(new Error("I hate you"));
         })
     })
 })
