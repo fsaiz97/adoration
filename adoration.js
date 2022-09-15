@@ -6,9 +6,4 @@ function showHowMuchILoveYou(amount) {
     }
 }
 
-console.log(showHowMuchILoveYou(1));
-console.log(showHowMuchILoveYou(NaN));
-console.log(showHowMuchILoveYou("no"));
-console.log(showHowMuchILoveYou(undefined));
-console.log(showHowMuchILoveYou(-1));
-console.log(showHowMuchILoveYou(3.14));
+module.exports = { showHowMuchILoveYou };
